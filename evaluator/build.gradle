@@ -1,0 +1,14 @@
+group 'codesparkle'
+version '1.0'
+
+apply plugin: 'application'
+
+mainClassName = 'com.codesparkle.poker.evaluator.generator.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':shared')
+}
